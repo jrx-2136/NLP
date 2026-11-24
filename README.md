@@ -4,15 +4,15 @@ This repository contains Natural Language Processing laboratory assignments cove
 
 ## Repository layout
 
-- `Assignment 1/` — Marathi sentence/word tokenization and corpus statistics.
-- `Assignment 2/` — greedy and dynamic-programming word segmentation.
-- `Assignment 3/` — finite-state automaton and noun transducer exercises.
-- `Assignment 4/` — unigram through quadrigram language models.
-- `Assignment 5/` — add-k smoothing evaluation.
-- `Assignment 6/` — interpolation and advanced smoothing methods.
-- `Assignment 7/` — HMM and Naive Bayes Hindi POS tagging.
-- `Assignment 8/` — noisy-channel spell checking.
-- `Assignment 9/` — comparison of HMM, Naive Bayes, MEMM, and CRF POS taggers.
+- `Assignment 01/` — Marathi sentence/word tokenization and corpus statistics.
+- `Assignment 02/` — greedy and dynamic-programming word segmentation.
+- `Assignment 03/` — finite-state automaton and noun transducer exercises.
+- `Assignment 04/` — unigram through quadrigram language models.
+- `Assignment 05/` — add-k smoothing evaluation.
+- `Assignment 06/` — interpolation and advanced smoothing methods.
+- `Assignment 07/` — HMM and Naive Bayes Hindi POS tagging.
+- `Assignment 08/` — noisy-channel spell checking.
+- `Assignment 09/` — comparison of HMM, Naive Bayes, MEMM, and CRF POS taggers.
 - `Assignment 10/` — Amazon review embeddings and neural network experiments.
 - `nlp project/` — CRF POS tagging on the Universal Dependencies English-EWT data.
 
