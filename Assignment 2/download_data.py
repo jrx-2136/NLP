@@ -2,9 +2,6 @@ from datasets import load_dataset
 from tqdm import tqdm
 import os
 
-# ==============================
-# Configuration
-# ==============================
 
 LANGUAGE = "mar_Deva"          # Change if needed
 OUTPUT_FILE = "../data/raw.txt"
@@ -26,9 +23,7 @@ if existing >= TARGET_LINES:
     print("Target already reached.")
     exit()
 
-# ==============================
-# Stream Dataset
-# ==============================
+
 
 
 dataset = load_dataset(
@@ -39,9 +34,6 @@ dataset = load_dataset(
     streaming=True,
 )
 
-# ==============================
-# Save Data
-# ==============================
 
 progress = tqdm(total=TARGET_LINES)
 
