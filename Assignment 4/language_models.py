@@ -13,7 +13,6 @@ from typing import Iterable
 
 import pandas as pd
 
-
 START = "<s>"
 END = "</s>"
 UNKNOWN = "<UNK>"
