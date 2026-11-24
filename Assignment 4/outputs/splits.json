@@ -1,0 +1,5 @@
+{
+  "training": 998000,
+  "development": 1000,
+  "test": 1000
+}

@@ -1,0 +1,12 @@
+{
+  "model": "CRF",
+  "test_accuracy": 0.9446879732206902,
+  "test_macro_f1": 0.9093787188951112,
+  "train_seconds": 177.70399700000416,
+  "inference_seconds": 0.6365875999908894,
+  "tokens_per_second": 39419.555141129254,
+  "best_c1": 0.1,
+  "best_c2": 0.1,
+  "max_iterations": 100,
+  "total_test_tokens": 25094
+}

@@ -1,0 +1,123 @@
+{
+  "input_file": "C:\\Users\\User\\NLP\\Assignment 1\\indiccorp_tokenized.parquet",
+  "total_sentences": 16127,
+  "split_sizes": {
+    "training": 14127,
+    "development": 1000,
+    "test": 1000
+  },
+  "seed": 42,
+  "vocabulary_size": 25156,
+  "methods": {
+    "interpolation": {
+      "1-gram": {
+        "order": 1,
+        "development_perplexity": 1297.948504274852,
+        "test_perplexity": 1288.955815043125
+      },
+      "2-gram": {
+        "order": 2,
+        "development_perplexity": 447.9137720571218,
+        "test_perplexity": 448.2510952205765
+      },
+      "3-gram": {
+        "order": 3,
+        "development_perplexity": 469.77515666792027,
+        "test_perplexity": 470.5028695611747
+      },
+      "4-gram": {
+        "order": 4,
+        "development_perplexity": 576.1317346461,
+        "test_perplexity": 578.1685232284282
+      }
+    },
+    "good_turing": {
+      "1-gram": {
+        "order": 1,
+        "development_perplexity": 1327.8066733456812,
+        "test_perplexity": 1320.414781391825
+      },
+      "2-gram": {
+        "order": 2,
+        "development_perplexity": 3243.8895732064225,
+        "test_perplexity": 3165.7835989445985
+      },
+      "3-gram": {
+        "order": 3,
+        "development_perplexity": 15293.054766961126,
+        "test_perplexity": 15187.655805143466
+      },
+      "4-gram": {
+        "order": 4,
+        "development_perplexity": 22166.6247970426,
+        "test_perplexity": 22105.80634207388
+      }
+    },
+    "katz_backoff": {
+      "1-gram": {
+        "order": 1,
+        "development_perplexity": 1327.8066733456812,
+        "test_perplexity": 1320.414781391825
+      },
+      "2-gram": {
+        "order": 2,
+        "development_perplexity": 2077.183789689665,
+        "test_perplexity": 2045.8309586346702
+      },
+      "3-gram": {
+        "order": 3,
+        "development_perplexity": 4779.021625660918,
+        "test_perplexity": 4717.87048364102
+      },
+      "4-gram": {
+        "order": 4,
+        "development_perplexity": 6393.136512290401,
+        "test_perplexity": 6300.735534676221
+      }
+    },
+    "stupid_backoff": {
+      "1-gram": {
+        "order": 1,
+        "development_perplexity": 1297.948504274852,
+        "test_perplexity": 1288.955815043125
+      },
+      "2-gram": {
+        "order": 2,
+        "development_perplexity": 356.1535299165267,
+        "test_perplexity": 355.8601971195272
+      },
+      "3-gram": {
+        "order": 3,
+        "development_perplexity": 1453.3705418908612,
+        "test_perplexity": 1448.1143731702346
+      },
+      "4-gram": {
+        "order": 4,
+        "development_perplexity": 6057.864440430247,
+        "test_perplexity": 6199.611079128803
+      }
+    },
+    "kneser_ney": {
+      "1-gram": {
+        "order": 1,
+        "development_perplexity": 3532.9469997830265,
+        "test_perplexity": 3737.400889567604
+      },
+      "2-gram": {
+        "order": 2,
+        "development_perplexity": 720.7294001489198,
+        "test_perplexity": 758.2740058640559
+      },
+      "3-gram": {
+        "order": 3,
+        "development_perplexity": 675.4804109659085,
+        "test_perplexity": 715.9834091719607
+      },
+      "4-gram": {
+        "order": 4,
+        "development_perplexity": 699.6357325556629,
+        "test_perplexity": 743.228566748001
+      }
+    }
+  }
+}

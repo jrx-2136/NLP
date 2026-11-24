@@ -1,0 +1,31 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Large datasets and archives
+*.parquet
+*.csv
+*.tgz
+*.zip
+mr.txt
+
+# Trained models and serialized outputs
+*.pkl
+*.joblib
+
+# Nested Git repositories
+nlp project/UD_English-EWT/

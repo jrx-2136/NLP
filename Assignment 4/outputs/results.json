@@ -1,0 +1,41 @@
+{
+  "input_file": "C:\\Users\\User\\NLP\\Assignment 1\\indiccorp_tokenized.parquet",
+  "total_sentences": 1000000,
+  "split_sizes": {
+    "training": 998000,
+    "development": 1000,
+    "test": 1000
+  },
+  "seed": 42,
+  "smoothing": "add-one/Laplace",
+  "models": {
+    "1-gram": {
+      "order": 1,
+      "vocabulary_size": 641181,
+      "training_perplexity": 4767.569379902739,
+      "development_perplexity": 4991.978089248085,
+      "test_perplexity": 5062.679353280484
+    },
+    "2-gram": {
+      "order": 2,
+      "vocabulary_size": 641181,
+      "training_perplexity": 16123.182026729648,
+      "development_perplexity": 21300.78161750395,
+      "test_perplexity": 22273.996225168175
+    },
+    "3-gram": {
+      "order": 3,
+      "vocabulary_size": 641181,
+      "training_perplexity": 78935.88348212256,
+      "development_perplexity": 124936.95210631729,
+      "test_perplexity": 134940.82394481177
+    },
+    "4-gram": {
+      "order": 4,
+      "vocabulary_size": 641181,
+      "training_perplexity": 154205.33964144642,
+      "development_perplexity": 265902.0663874955,
+      "test_perplexity": 282776.3569683268
+    }
+  }
+}
