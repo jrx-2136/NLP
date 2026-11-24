@@ -12,7 +12,6 @@ from typing import Iterable
 
 import pandas as pd
 
-
 ASSIGNMENT_DIR = Path(__file__).resolve().parent
 ASSIGNMENT_4_DIR = ASSIGNMENT_DIR.parent / "Assignment 4"
 sys.path.insert(0, str(ASSIGNMENT_4_DIR))
